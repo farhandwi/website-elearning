@@ -12,6 +12,27 @@
                     </div>
 
                     <div class="list-group">
+                        <table class="table">
+                            <tr>
+                                <td style="width: 150px !important">NIM</td>
+                                <td>:</td>
+                                <td>{{ auth()->user()->nim }}</td>
+                            </tr>
+                            <tr>
+                                <td>Nama</td>
+                                <td>:</td>
+                                <td>{{ auth()->user()->nama }}</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td>
+                                    {{ auth()->user()->email }}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    {{-- <div class="list-group">
                         <a href="#" class="list-group-item list-group-item-action">
                             <div class="d-flex justify-content-center">
                                 <h6 class="mb-1">Panduan Penggunaan</h6>
@@ -29,7 +50,7 @@
                                 <h6 class="mb-1 mt-2">Github</h6>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

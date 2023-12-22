@@ -11,7 +11,7 @@
                             alt="{{ auth()->user()->nama }}" style="width: 10em" class="img-fluid rounded mb-3">
                     </div>
 
-                    <div class="list-group">
+                    {{-- <div class="list-group">
                         <a href="#" class="list-group-item list-group-item-action">
                             <div class="d-flex justify-content-center">
                                 <h6 class="mb-1">Panduan Penggunaan</h6>
@@ -34,7 +34,7 @@
                                 <h6 class="mb-1 mt-2">Github</h6>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
